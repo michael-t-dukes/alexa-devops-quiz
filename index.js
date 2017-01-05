@@ -21,7 +21,7 @@
  */
 var questions = [
     {
-        "What does PaaS usually stand for?": [
+        "What does PAAS usually stand for?": [
             "Platform-as-a-Service",
             "Portal-as-a-Service",
             "Process-as-a-Service",
