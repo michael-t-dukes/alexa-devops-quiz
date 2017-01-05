@@ -87,7 +87,7 @@ var questions = [
     {
         "Which one of these is not an AWS region?": [
             "Edinburgh",
-            "Lonson",
+            "London",
             "Frankfurt",
             "Singapore"
         ]
