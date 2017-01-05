@@ -278,7 +278,7 @@ var CARD_TITLE = "DevOps Trivia"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
-        speechOutput = "I will ask you " + GAME_LENGTH.toString()
+        speechOutput = "Welcome to the DevOps Quiz! I will ask you " + GAME_LENGTH.toString()
             + " questions, try to get as many right as you can. Just say the number of the answer. Let's begin. ",
         shouldEndSession = false,
 
