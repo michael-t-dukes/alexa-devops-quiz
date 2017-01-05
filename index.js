@@ -117,9 +117,15 @@ var questions = [
             "XML",
             "SDL"
         ]
+    },
+	{
+        "Which of the following is not a CI tool:": [
+            "Ansible",
+            "Jenkins",
+            "Travis",
+            "Bamboo",
+			"Codeship"
     }
-
-
 ];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
