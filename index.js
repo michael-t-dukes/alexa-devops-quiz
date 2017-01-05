@@ -58,8 +58,6 @@ var questions = [
             "Integration of code changes",
             "Maintain code history",
             "Revert to previous code changes",
-			"Compare versions and changes",
-			"Ability to merge changes"
         ]
     },
 	{
@@ -128,10 +126,10 @@ var questions = [
     },
     {
         "Which one of the following is not a benefit of frequently releasing software?": [
+            "Automating environment installs",
             "Reducing the risk of a release",
             "Turning ideas into value quickly",
-            "Reducing development waste",
-            "Automating environment installs"
+            "Reducing development waste"
         ]
     },
     {
@@ -148,7 +146,6 @@ var questions = [
             "Jenkins",
             "Travis",
             "Bamboo",
-			"Codeship"
         ]
     }
 ];
