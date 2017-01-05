@@ -71,7 +71,7 @@ var questions = [
         ]
     },
 	{
-        "What does the AWS service “IAM” stand for?": [
+        "What does the AWS service IAM stand for?": [
             "Identity & Access Management",
             "Incident & Accident Management",
             "Identification & Authorisation Management",
@@ -81,9 +81,9 @@ var questions = [
     {
         "When was git released?": [
             "April 2005",
-            "September 2006",
-            "August 2004",
-            "January 2009"
+            "September 2010",
+            "August 2009",
+            "January 2001"
         ]
     },    
     {
@@ -143,7 +143,7 @@ var questions = [
         ]
     },
     {
-        "Which of the following is not a CI tool:": [
+        "Which of the following is not a Continuous Integration tool:": [
             "Ansible",
             "Jenkins",
             "Travis",
