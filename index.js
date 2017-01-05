@@ -111,6 +111,30 @@ var questions = [
         ]
     },
     {
+        "Which of the follow is not an AWS anti-pattern?": [
+            "Designing for failure",
+            "Hoping things won’t fail",
+            "Tightly-couple architectures",
+            "Vertical scaling"
+        ]
+    },
+    {
+        "What is the process of pushing code to production automatically through a DevOps best-practice pipeline?": [
+            "Continuous Deployment",
+            "Continuous Delivery",
+            "Continuous Integration",
+            "Continuous Principles"
+        ]
+    },
+    {
+        "Which one of the following is not a benefit of frequently releasing software?": [
+            "Reducing the risk of a release",
+            "Turning ideas into value quickly",
+            "Reducing development waste",
+            "Automating environment installs"
+        ]
+    },
+    {
         "Playbooks in Ansible are in which of the following?": [
             "YAML",
             "JSON",
@@ -118,13 +142,14 @@ var questions = [
             "SDL"
         ]
     },
-	{
+    {
         "Which of the following is not a CI tool:": [
             "Ansible",
             "Jenkins",
             "Travis",
             "Bamboo",
 			"Codeship"
+        ]
     }
 ];
 
@@ -462,7 +487,7 @@ function handleGetHelpRequest(intent, session, callback) {
 function handleFinishSessionRequest(intent, session, callback) {
     // End the session with a "Good bye!" if the user wants to quit the game
     callback(session.attributes,
-        buildSpeechletResponseWithoutCard("Good bye!", "", true));
+        buildSpeechletResponseWithoutCard("Thanks for playing the DevOps Quiz. Good bye!", "", true));
 }
 
 function isAnswerSlotValid(intent) {
