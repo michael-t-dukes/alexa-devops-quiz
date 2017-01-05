@@ -85,7 +85,41 @@ var questions = [
             "August 2004",
             "January 2009"
         ]
+    },    
+    {
+        "Which one of these is not an AWS region?": [
+            "Edinburgh",
+            "Lonson",
+            "Frankfurt",
+            "Singapore"
+        ]
+    },
+    {
+        "What file-system was the first file-system Docker containers used?": [
+            "AUFS",
+            "BTRFS",
+            "VFS",
+            "NFS"
+        ]
+    },
+    {
+        "What is the command in docker to list all running services?": [
+            "docker service LS",
+            "docker PS",
+            "docker service PS",
+            "docker list"
+        ]
+    },
+    {
+        "Playbooks in Ansible are in which of the following?": [
+            "YAML",
+            "JSON",
+            "XML",
+            "SDL"
+        ]
     }
+
+
 ];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
